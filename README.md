@@ -1,7 +1,7 @@
 # @moeenn/fetch
 Native Fetch with better ergonomics and error reporting. All the features of `fetch` are supported with the following additional features
 
-- Header "Content-Type" with value "application/json" is automatically added, if not explicitly provided.
+- Header `Content-Type` with value `application/json` is automatically added, if not explicitly provided.
 - A default timeout of 10 seconds is added on all requests, unless explicitly provided.
 - In case of request timeout, an instance of Error is thrown instead of the weird DOMException.
 - Errors are thrown in case response status code is 400 or above.
